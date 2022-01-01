@@ -14,7 +14,99 @@
     <header>
       <h1>Checkout</h1>
     </header>
+
+    <div class="content">
+      <div class="cart--area">
+        <div class="cart--products">
+          <div class="cart--product">
+            <div class="product--image">
+              <img src="src/images/photo1.png" alt="">
+            </div>
+            <div class="product--informations">
+              <div class="product--informations-text">
+                <p>Vintage Backbag</p>
+                <span>$54.99</span>
+                <small><del>$94.99</del></small>
+              </div>
+              <div class="product-quantity">
+                <span class="decrease-quantity"> - </span>
+                <span class="quantity">0</span>
+                <span class="increase-quantity"> + </span>
+              </div>
+            </div>
+          </div>
+          <div class="cart--product">
+            <div class="product--image">
+              <img src="src/images/photo2.png" alt="">
+            </div>
+            <div class="product--informations">
+              <div class="product--informations-text">
+                <p>Levi Shoes </p>
+                <span>$54.99</span>
+                <small><del>$94.99</del></small>
+              </div>
+              <div class="product-quantity">
+                <span class="decrease-quantity"> - </span>
+                <span class="quantity">0</span>
+                <span class="increase-quantity"> + </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cart--informations">
+          <div>
+            <span>Shipping</span>
+            <span>$19</span>
+          </div>
+          <div>
+            <span>Total</span>
+            <span>$148.98</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-area">
+        <form action="">
+          <div>
+            <h3>Contact information</h3>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+            <label for="phone">Phone</label>
+            <input type="number" name="phone" id="phone">
+          </div>
+
+          <div>
+            <h3>Shipping address</h3>
+            <label for="name">Full name</label>
+            <input type="text" name="name" id="name">
+            <label for="name">Address</label>
+            <input type="text" name="address" id="address">
+            <label for="name">City</label>
+            <input type="text" name="city" id="city">
+            <div>
+              <label for="country">Country</label>
+              <select name="country" id="country">
+                <option value="Brazil">Brazil</option>
+                <option value="USA">USA</option>
+                <option value="Russia">Russia</option>
+              </select>
+              <label for="postal-code">Postal code</label>
+              <input type="text" name="postal-code" id="postal-code">
+            </div>
+            <span><input type="checkbox" name="save" id="save"> Save this information for next time</span>
+            <input type="submit" value="Continue">
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+
+
   </section>
+  <footer>
+    <p>created by <a href="">bertdev</a> - devChallenges.io</p>
+  </footer>
 </body>
 
 </html>
